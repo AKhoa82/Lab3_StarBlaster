@@ -273,6 +273,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9083aa54eaa564f43a41720984d5edd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
+  moveSpeed: 10
+  leftBoundPadding: 1
+  rightBoundPadding: 1
+  upBoundPadding: 7
+  downBoundPadding: 1
 --- !u!1001 &1182519991046111209
 PrefabInstance:
   m_ObjectHideFlags: 0
