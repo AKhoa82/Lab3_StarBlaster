@@ -343,6 +343,7 @@ MonoBehaviour:
   projectileSpeed: 10
   projectileLifetime: 5
   fireRate: 0.2
+  useAI: 0
   isFiring: 0
 --- !u!1001 &3872750642363692014
 PrefabInstance:
@@ -370,15 +371,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8073723923093943117, guid: 159a03f0a11384f4493a172d6d27a821, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8073723923093943117, guid: 159a03f0a11384f4493a172d6d27a821, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8073723923093943117, guid: 159a03f0a11384f4493a172d6d27a821, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8073723923093943117, guid: 159a03f0a11384f4493a172d6d27a821, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -390,7 +387,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8073723923093943117, guid: 159a03f0a11384f4493a172d6d27a821, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -46.214
       objectReference: {fileID: 0}
     - target: {fileID: 9109459008133492271, guid: 159a03f0a11384f4493a172d6d27a821, type: 3}
       propertyPath: m_Name
