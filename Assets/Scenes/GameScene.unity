@@ -283,6 +283,8 @@ MonoBehaviour:
   waveConfigs:
   - {fileID: 11400000, guid: 4e7d3f3c31caf054fa6c4ae2c3092644, type: 2}
   - {fileID: 11400000, guid: 7a5b3aae61704f3449a3a88632fe6ab2, type: 2}
+  - {fileID: 11400000, guid: 47792c389002a514b8d63e258d1cfc9d, type: 2}
+  - {fileID: 11400000, guid: cd1c14acbc382b943b81808e5d50e2e1, type: 2}
   timeBetweenWaves: 0
   isLooping: 1
 --- !u!4 &231297062
@@ -966,7 +968,7 @@ MonoBehaviour:
   leftBoundPadding: 1
   rightBoundPadding: 1
   upBoundPadding: 7
-  downBoundPadding: 1
+  downBoundPadding: 2
 --- !u!114 &1709561881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -980,7 +982,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Shooter
   projectilePrefab: {fileID: 2783788306037018308, guid: 4955f73f79f9d194fa2aca0b3d1a222a, type: 3}
-  projectileSpeed: 10
+  projectileSpeed: 15
   projectileLifetime: 5
   baseFireRate: 0.2
   useAI: 0
@@ -1145,7 +1147,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8073723923093943117, guid: 159a03f0a11384f4493a172d6d27a821, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.06
+      value: -6.28
       objectReference: {fileID: 0}
     - target: {fileID: 8073723923093943117, guid: 159a03f0a11384f4493a172d6d27a821, type: 3}
       propertyPath: m_LocalPosition.z
