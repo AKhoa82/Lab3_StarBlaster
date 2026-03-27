@@ -823,7 +823,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 96
+  m_fontSize: 51.4
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -834,6 +834,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -964,7 +965,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9083aa54eaa564f43a41720984d5edd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  moveSpeed: 10
+  moveSpeed: 25
   leftBoundPadding: 1
   rightBoundPadding: 1
   upBoundPadding: 7
@@ -984,7 +985,7 @@ MonoBehaviour:
   projectilePrefab: {fileID: 2783788306037018308, guid: 4955f73f79f9d194fa2aca0b3d1a222a, type: 3}
   projectileSpeed: 15
   projectileLifetime: 5
-  baseFireRate: 0.2
+  baseFireRate: 0.05
   useAI: 0
   minimumFireRate: 0.2
   fireRateVariance: 0
